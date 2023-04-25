@@ -5,7 +5,7 @@ from dateutil.relativedelta import relativedelta
 
 parser = argparse.ArgumentParser(
     description="""Convert Dabble JSON file into Day One JSON file.
-    If for Journey App, you will need to zip and rename exported Day One JSON as shown here: https://help.journey.cloud/en/article/import-day-one-spkats/""")
+    If for Journey App, you will need to zip and rename the exported Day One JSON as shown here: https://help.journey.cloud/en/article/import-day-one-spkats/""")
 parser.add_argument('--dabble', required=True, help="input file in the Dabble JSON format")
 parser.add_argument('--dayone', required=True, help="output file in the Day One JSON format")
 args = parser.parse_args()
